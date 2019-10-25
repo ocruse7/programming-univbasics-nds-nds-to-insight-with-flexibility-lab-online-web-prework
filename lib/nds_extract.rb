@@ -105,7 +105,7 @@ def movies_with_directors_set(source)
   movieList = [[]]
   
   source.length.times do |i|
-    movieList[index] = movies_with_director_key(source[i][:name], source[i][:movies])
+    movieList[i] = movies_with_director_key(source[i][:name], source[i][:movies])
   end
   
   movieList
